@@ -3,7 +3,7 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main # Adjust this to your default branch (e.g., 'master')
+      - 004-module-4-vla # Adjust this to your default branch (e.g., 'master')
 
 jobs:
   deploy:
