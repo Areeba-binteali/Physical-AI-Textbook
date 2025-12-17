@@ -1,0 +1,10 @@
+# Goal
+string task_description
+---
+# Result
+bool success
+string final_status
+---
+# Feedback
+string current_step
+float32 percent_complete

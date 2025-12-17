@@ -1,0 +1,7 @@
+# Request
+string command
+---
+# Response
+string[] plan_steps
+bool success
+string error_message

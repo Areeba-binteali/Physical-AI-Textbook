@@ -23,12 +23,12 @@
 
 **Purpose**: Create the directory structure and initial files for Module 4.
 
-- [ ] T001 Create the main directory for the new module at `docs/module-4-vla/`.
-- [ ] T002 [P] Create the category definition file `docs/module-4-vla/_category_.json` to label the module "Module 4: Vision-Language-Action".
-- [ ] T003 [P] Create the ROS 2 package for custom messages `vla_interfaces` with subdirectories for `srv` and `action`.
-- [ ] T004 [P] Define the `GeneratePlan.srv` message in `vla_interfaces/srv/GeneratePlan.srv`.
-- [ ] T005 [P] Define the `ExecuteVlaTask.action` message in `vla_interfaces/action/ExecuteVlaTask.action`.
-- [ ] T006 Add the new `vla_interfaces` package to the workspace build process.
+- [X] T001 Create the main directory for the new module at `docs/module-4-vla/`.
+- [X] T002 [P] Create the category definition file `docs/module-4-vla/_category_.json` to label the module "Module 4: Vision-Language-Action".
+- [X] T003 [P] Create the ROS 2 package for custom messages `vla_interfaces` with subdirectories for `srv` and `action`.
+- [X] T004 [P] Define the `GeneratePlan.srv` message in `vla_interfaces/srv/GeneratePlan.srv`.
+- [X] T005 [P] Define the `ExecuteVlaTask.action` message in `vla_interfaces/action/ExecuteVlaTask.action`.
+- [X] T006 Add the new `vla_interfaces` package to the workspace build process.
 
 ---
 
@@ -39,8 +39,8 @@
 
 ### Implementation for User Story 1
 
-- [ ] T007 [US1] Generate the full content for Chapter 1, "The VLA Philosophy", in `docs/module-4-vla/01-vla-philosophy.md`. Include diagrams and learning objectives.
-- [ ] T008 [US1] Generate the full content for Chapter 2, "Voice-to-Text: The Robot's Ear", in `docs/module-4-vla/02-voice-to-text.md`. Include code examples for the STT node and ROS 2 publisher.
+- [X] T007 [US1] Generate the full content for Chapter 1, "The VLA Philosophy", in `docs/module-4-vla/01-vla-philosophy.md`. Include diagrams and learning objectives.
+- [X] T008 [US1] Generate the full content for Chapter 2, "Voice-to-Text: The Robot's Ear", in `docs/module-4-vla/02-voice-to-text.md`. Include code examples for the STT node and ROS 2 publisher.
 
 ---
 
@@ -51,7 +51,7 @@
 
 ### Implementation for User Story 2
 
-- [ ] T009 [US2] Generate the full content for Chapter 3, "Language-to-Plan: The Robot's Brain", in `docs/module-4-vla/03-language-to-plan.md`. Include code examples for the LLM planner service node and prompt engineering best practices.
+- [X] T009 [US2] Generate the full content for Chapter 3, "Language-to-Plan: The Robot's Brain", in `docs/module-4-vla/03-language-to-plan.md`. Include code examples for the LLM planner service node and prompt engineering best practices.
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### Implementation for User Story 3
 
-- [ ] T010 [US3] Generate the full content for Chapter 5, "Vision Grounding: The Robot's Eye", in `docs/module-4-vla/05-vision-grounding.md`. Include code examples for the perception action server and how to use Isaac Sim's perception features.
+- [X] T010 [US3] Generate the full content for Chapter 5, "Vision Grounding: The Robot's Eye", in `docs/module-4-vla/05-vision-grounding.md`. Include code examples for the perception action server and how to use Isaac Sim's perception features.
 
 ---
 
@@ -73,7 +73,7 @@
 
 ### Implementation for User Story 4
 
-- [ ] T011 [US4] Generate the full content for Chapter 4, "The Orchestrator: From Plan to Action", in `docs/module-4-vla/04-orchestrator.md`. Include code examples for the central orchestrator node and how it uses action clients to call other nodes.
+- [X] T011 [US4] Generate the full content for Chapter 4, "The Orchestrator: From Plan to Action", in `docs/module-4-vla/04-orchestrator.md`. Include code examples for the central orchestrator node and how it uses action clients to call other nodes.
 
 ---
 
@@ -84,7 +84,7 @@
 
 ### Implementation for User Story 5
 
-- [ ] T012 [US5] Generate the full content for Chapter 6, "Putting It All Together: The Capstone", in `docs/module-4-vla/06-capstone-project.md`. Include final integration code, a master launch file, and instructions for running the end-to-end demo.
+- [X] T012 [US5] Generate the full content for Chapter 6, "Putting It All Together: The Capstone", in `docs/module-4-vla/06-capstone-project.md`. Include final integration code, a master launch file, and instructions for running the end-to-end demo.
 
 ---
 
@@ -92,11 +92,11 @@
 
 **Purpose**: Ensure module consistency, quality, and readiness for publication.
 
-- [ ] T013 [P] Review all chapters for consistency, clarity, and grammatical errors.
-- [ ] T014 [P] Generate a `_sidebar_snippet.js` file for easy integration into the main Docusaurus sidebar.
-- [ ] T015 Generate a final `00-review-and-next-steps.md` page summarizing the module and looking ahead.
-- [ ] T016 Validate all code examples and launch files work as described in the chapters.
-- [ ] T017 Optimize all chapter summaries and FAQs for the RAG chatbot.
+- [X] T013 [P] Review all chapters for consistency, clarity, and grammatical errors.
+- [X] T014 [P] Generate a `_sidebar_snippet.js` file for easy integration into the main Docusaurus sidebar.
+- [X] T015 Generate a final `00-review-and-next-steps.md` page summarizing the module and looking ahead.
+- [X] T016 Validate all code examples and launch files work as described in the chapters.
+- [X] T017 Optimize all chapter summaries and FAQs for the RAG chatbot.
 
 ---
 
