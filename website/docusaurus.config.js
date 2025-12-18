@@ -47,7 +47,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: '../docs',
+          path: './docs',
+          routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -74,7 +75,7 @@ const config = {
         logo: {
           alt: 'Physical-AI-Textbook Logo',
           src: 'img/logo.svg',
-          href: '/docs/module-1-ros2/introduction',
+          href: '/module-1-ros2/introduction', // Updated link
         },
         items: [
           {
@@ -98,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Book',
-                to: '/docs/module-1-ros2/introduction',
+                to: '/module-1-ros2/introduction',
               },
             ],
           },
