@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Physical-AI-Textbook',
+  title: 'Physical AI & Humanoid Robotics',
   tagline: 'A comprehensive guide to Physical AI',
   favicon: 'img/favicon.ico',
 
