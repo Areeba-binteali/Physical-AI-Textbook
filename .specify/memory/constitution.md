@@ -1,55 +1,49 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None -> 1.0.0
+Modified principles: None
+Added sections: Core Principles, Content Standards, Technical Standards, Knowledge Constraints, Writing Constraints, Output Format Requirements
+Removed sections: None
+Templates requiring updates:
+- .specify/templates/plan-template.md: ⚠ pending
+- .specify/templates/spec-template.md: ⚠ pending
+- .specify/templates/tasks-template.md: ⚠ pending
+- .specify/templates/commands/sp.constitution.md: ✅ updated
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Book Project Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Course Outline Adherence
+Content MUST follow the official course outline provided in the project brief (Physical AI → ROS2 → Gazebo/Unity → NVIDIA Isaac → VLA → Capstone).
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Completeness and Structure
+All modules MUST be complete, structured, and fully written — no placeholder headings allowed.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Pedagogical Utility
+The book MUST be usable directly for teaching: examples, diagrams (Mermaid/ASCII), exercises, and mini-projects are MANDATORY.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Voice and Readability
+Voice MUST be clear, modern technical writing that a CS student or robotics beginner can understand.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Production Readiness
+Everything MUST be production-ready for GitHub Pages.
 
-### [PRINCIPLE_6_NAME]
+### Content Standards
+Every module MUST be a full folder with multiple Markdown pages. Every page MUST contain: 5–10 clear sections, real explanations (not abstract fluff), practical examples (ROS2 code, Gazebo configs, Isaac snippets, etc.), Mermaid diagrams where relevant, end-of-page quizzes or tasks. No empty headings. No skeleton files. No TODOs.
 
+## Technical Standards
 
-[PRINCIPLE__DESCRIPTION]
+File output MUST exactly match Docusaurus + Spec-Kit Plus conventions: Correct sidebar category format, Valid Markdown frontmatter, Folder structure ready to paste into /docs/, Sidebar snippet included for each module. All examples MUST run on the required stack (Ubuntu 22.04 + ROS2 Humble + Isaac Sim + Jetson).
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Knowledge Constraints
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+All technical claims MUST be accurate to: ROS2 official docs, NVIDIA Isaac Sim/Isaac ROS docs, Gazebo/Fortress docs. If an advanced concept is mentioned (VSLAM, Orin deployment, Nav2, etc.), include a short correct explanation.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+**Writing Constraints**: Tone: clear, direct, teaching-focused. Grade readability: Undergraduate CS level. Allow diagrams + concise formulas. No citations required (this is a textbook, not a research paper).
+**Output Format Requirements**: When generating content for any module/page: Show folder structure first, Then full Markdown for every file, Then sidebar snippet. No commentary outside structure.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-10 | **Last Amended**: 2025-12-10
