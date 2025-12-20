@@ -76,7 +76,7 @@ const config = {
         logo: {
           alt: 'Physical-AI-Textbook Logo',
           src: 'img/logo.svg',
-          href: '/module-1-ros2/01-introduction', // Updated link
+          href: 'module-1-ros2/01-introduction', // Updated link
         },
         items: [
           {
@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Book',
-                to: '/module-1-ros2/01-introduction',
+                to: 'module-1-ros2/01-introduction',
               },
             ],
           },
