@@ -27,7 +27,7 @@ jobs:
       # If your Docusaurus project is in a subdirectory, navigate into it
       - name: Change to Docusaurus project directory
         run: cd website
-        working-directory: ./website # Set the working directory for subsequent commands
+        working-directory: /website # Set the working directory for subsequent commands
 
       - name: Install dependencies
         run: npm install # Or yarn install, pnpm install
