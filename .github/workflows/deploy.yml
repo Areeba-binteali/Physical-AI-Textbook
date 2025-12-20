@@ -3,37 +3,30 @@ name: Deploy Docusaurus to GitHub Pages
 on:
   push:
     branches:
-      - main # Adjust this to your default branch (e.g., 'master')
+      - main
+
+permissions:
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
-    name: Deploy
     runs-on: ubuntu-latest
-    permissions:
-      pages: write # Allows the GITHUB_TOKEN to deploy to GitHub Pages
-      id-token: write # This is required to authenticate with GitHub Pages
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Not needed if you don't use Docusaurus' "last updated" feature
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18 # Or your preferred Node.js version
-
-      # If your Docusaurus project is in a subdirectory, navigate into it
-      - name: Change to Docusaurus project directory
-        run: cd website
-        working-directory: /website # Set the working directory for subsequent commands
+          node-version: 18
 
       - name: Install dependencies
-        run: npm install # Or yarn install, pnpm install
+        working-directory: website
+        run: npm install
 
       - name: Build Docusaurus website
-        run: npm run build # Or yarn build, pnpm build
+        working-directory: website
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -41,8 +34,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build # The path to your Docusaurus build output. This path is relative to the working-directory of the build step.
+          path: website/build
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
