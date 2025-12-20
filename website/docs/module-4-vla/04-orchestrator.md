@@ -1,7 +1,9 @@
 ---
-title: 'Chapter 4: The Orchestrator, From Plan to Action'
-sidebar_position: 4
+id: 04-orchestrator
+title: "Chapter 4: The Orchestrator, From Plan to Action"
 ---
+
+
 
 # Chapter 4: The Orchestrator, From Plan to Action
 

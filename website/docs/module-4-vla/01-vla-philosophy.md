@@ -1,7 +1,9 @@
 ---
-title: 'Chapter 1: The VLA Philosophy'
-sidebar_position: 1
+id: 01-vla-philosophy
+title: "Chapter 1: The VLA Philosophy"
 ---
+
+
 
 # Chapter 1: The VLA Philosophy
 

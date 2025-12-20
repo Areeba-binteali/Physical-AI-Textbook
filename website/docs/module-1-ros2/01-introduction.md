@@ -1,3 +1,10 @@
+---
+id: 01-introduction
+title: "Module 1: The Robotic Nervous System (ROS 2)"
+---
+
+
+
 # Module 1: The Robotic Nervous System (ROS 2)
 
 ## Chapter 1: An Introduction to the Robotic Nervous System

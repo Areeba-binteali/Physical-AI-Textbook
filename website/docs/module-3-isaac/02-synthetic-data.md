@@ -1,8 +1,9 @@
 ---
 id: 02-synthetic-data
-title: 2. Photorealistic Simulation & Synthetic Data
-slug: /module-3-isaac/synthetic-data
+title: "# The Need for Synthetic Data in AI Robotics"
 ---
+
+
 
 ## The Need for Synthetic Data in AI Robotics
 

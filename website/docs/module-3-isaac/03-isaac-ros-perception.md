@@ -1,8 +1,9 @@
 ---
 id: 03-isaac-ros-perception
-title: 3. Isaac ROS & Accelerated Perception
-slug: /module-3-isaac/isaac-ros-perception
+title: "# Hardware-Accelerated Perception Pipelines with Isaac ROS"
 ---
+
+
 
 ## Hardware-Accelerated Perception Pipelines with Isaac ROS
 

@@ -1,3 +1,10 @@
+---
+id: 07-bridging-ai-to-ros
+title: "Chapter 7: Bridging AI to ROS"
+---
+
+
+
 # Chapter 7: Bridging AI to ROS
 
 ### Learning Goals

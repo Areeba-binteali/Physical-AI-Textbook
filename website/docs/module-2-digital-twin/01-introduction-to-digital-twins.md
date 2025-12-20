@@ -1,7 +1,9 @@
 ---
-id: introduction-to-digital-twins
-title: 01 - Introduction to Digital Twins
+id: 01-introduction-to-digital-twins
+title: "01 - Introduction to Digital Twins"
 ---
+
+
 
 # 01 - Introduction to Digital Twins
 

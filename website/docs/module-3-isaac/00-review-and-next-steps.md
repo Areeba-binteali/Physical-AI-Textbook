@@ -1,8 +1,9 @@
 ---
 id: 00-review-and-next-steps
-title: 0. Review and Next Steps
-slug: /module-3-isaac/review-and-next-steps
+title: "# Module 3: Review and Key Takeaways"
 ---
+
+
 
 ## Module 3: Review and Key Takeaways
 

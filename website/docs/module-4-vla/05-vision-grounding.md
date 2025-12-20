@@ -1,7 +1,9 @@
 ---
-title: 'Chapter 5: Vision Grounding, The Robot''s Eye'
-sidebar_position: 5
+id: 05-vision-grounding
+title: "Chapter 5: Vision Grounding, The Robot's Eye"
 ---
+
+
 
 # Chapter 5: Vision Grounding, The Robot's Eye
 

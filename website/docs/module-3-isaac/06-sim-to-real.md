@@ -1,8 +1,9 @@
 ---
 id: 06-sim-to-real
-title: 6. Sim-to-Real Concept
-slug: /module-3-isaac/sim-to-real
+title: "# The Sim-to-Real Gap: Why is it Hard?"
 ---
+
+
 
 ## The Sim-to-Real Gap: Why is it Hard?
 

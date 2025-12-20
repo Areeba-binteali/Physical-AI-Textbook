@@ -1,8 +1,9 @@
 ---
 id: 04-vslam-localization
-title: 4. Visual SLAM & Localization
-slug: /module-3-isaac/vslam-localization
+title: "# What is Visual SLAM (VSLAM)?"
 ---
+
+
 
 ## What is Visual SLAM (VSLAM)?
 

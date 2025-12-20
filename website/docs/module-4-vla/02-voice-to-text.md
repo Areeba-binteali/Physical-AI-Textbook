@@ -1,7 +1,9 @@
 ---
-title: 'Chapter 2: Voice-to-Text, The Robot''s Ear'
-sidebar_position: 2
+id: 02-voice-to-text
+title: "Chapter 2: Voice-to-Text, The Robot's Ear"
 ---
+
+
 
 # Chapter 2: Voice-to-Text, The Robot's Ear
 

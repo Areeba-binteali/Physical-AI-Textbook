@@ -1,7 +1,9 @@
 ---
-id: review-and-next-steps
-title: 06 - Review and Next Steps
+id: 06-review-and-next-steps
+title: "06 - Review and Next Steps"
 ---
+
+
 
 # 06 - Review and Next Steps
 

@@ -1,7 +1,9 @@
 ---
-id: gazebo-architecture-workflow
-title: 02 - Gazebo Architecture and Workflow
+id: 02-gazebo-architecture-and-workflow
+title: "02 - Gazebo Architecture and Workflow"
 ---
+
+
 
 # 02 - Gazebo Architecture and Workflow
 

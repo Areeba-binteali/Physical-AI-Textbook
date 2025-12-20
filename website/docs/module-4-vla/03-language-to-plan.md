@@ -1,3 +1,10 @@
+---
+id: 03-language-to-plan
+title: "Chapter 3: Language-to-Plan, The Robot's Brain"
+---
+
+
+
 --- 
 title: "Chapter 3: Language-to-Plan, The Robot's Brain"
 sidebar_position: 3

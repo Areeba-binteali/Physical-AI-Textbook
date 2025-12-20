@@ -1,3 +1,10 @@
+---
+id: 06-intro-to-urdf
+title: "Chapter 6: Intro to URDF - Describing a Robot's Body"
+---
+
+
+
 # Chapter 6: Intro to URDF - Describing a Robot's Body
 
 ### Learning Goals

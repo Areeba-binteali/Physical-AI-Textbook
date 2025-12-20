@@ -1,3 +1,10 @@
+---
+id: 02-nodes-and-topics
+title: "Chapter 2: Nodes and Topics - The Building Blocks of ROS 2"
+---
+
+
+
 # Chapter 2: Nodes and Topics - The Building Blocks of ROS 2
 
 ### Learning Goals

@@ -1,8 +1,9 @@
 ---
 id: 05-navigation-planning
-title: 5. Navigation & Path Planning
-slug: /module-3-isaac/navigation-planning
+title: "# Introduction to Navigation and Path Planning"
 ---
+
+
 
 ## Introduction to Navigation and Path Planning
 

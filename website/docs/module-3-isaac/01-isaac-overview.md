@@ -1,8 +1,9 @@
 ---
 id: 01-isaac-overview
-title: 1. NVIDIA Isaac Platform Overview
-slug: /module-3-isaac/isaac-overview
+title: "# Introduction to NVIDIA Isaac"
 ---
+
+
 
 ## Introduction to NVIDIA Isaac
 

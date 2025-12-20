@@ -1,7 +1,9 @@
 ---
-title: 'Chapter 6: The Capstone, Putting It All Together'
-sidebar_position: 6
+id: 06-capstone-project
+title: "Chapter 6: The Capstone, Putting It All Together"
 ---
+
+
 
 # Chapter 6: The Capstone, Putting It All Together
 
