@@ -94,12 +94,12 @@ pydantic-core==2.41.5
     #   cohere
     #   pydantic
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.0
+
     # via
     #   dateparser
     #   htmldate
 pytz==2025.2
-    # via dateparser
-pywin32==311
     # via portalocker
 pyyaml==6.0.3
     # via huggingface-hub
@@ -150,3 +150,6 @@ urllib3==2.6.2
     #   requests
     #   trafilatura
     #   types-requests
+fastapi==0.111.0  # ya latest stable
+uvicorn[standard]==0.23.2  # latest stable
+openai-agents==0.6.3  # ya jo latest stable version ho
