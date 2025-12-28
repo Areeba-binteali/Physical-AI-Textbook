@@ -8,6 +8,45 @@ const Chatbot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef(null);
 
+  // Load chat history from localStorage on component mount
+  useEffect(() => {
+    try {
+      const savedMessages = localStorage.getItem('chatHistory');
+      if (savedMessages) {
+        const parsedMessages = JSON.parse(savedMessages);
+        if (Array.isArray(parsedMessages) && parsedMessages.length > 0) {
+          setMessages(parsedMessages);
+        }
+      } else {
+        setMessages([
+          {
+            text: "Hello! I'm a helpful assistant. Ask me anything about the content in this book.",
+            isUser: false,
+          }
+        ]);
+      }
+    } catch (error) {
+      console.error("Failed to load chat history from localStorage", error);
+        setMessages([
+            {
+                text: "Hello! I'm a helpful assistant. Ask me anything about the content in this book.",
+                isUser: false,
+            }
+        ]);
+    }
+  }, []);
+
+  // Save chat history to localStorage whenever it changes
+  useEffect(() => {
+    try {
+      if (messages.length > 0) {
+        localStorage.setItem('chatHistory', JSON.stringify(messages));
+      }
+    } catch (error) {
+      console.error("Failed to save chat history to localStorage", error);
+    }
+  }, [messages]);
+
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -18,14 +57,6 @@ const Chatbot = () => {
 
   const toggleChat = () => {
     setIsOpen(!isOpen);
-    if (!isOpen) {
-        setMessages([
-            {
-                text: "Hello! I'm a helpful assistant. Ask me anything about the content in this book.",
-                isUser: false,
-            }
-        ]);
-    }
   };
 
   const handleInputChange = (e) => {
